@@ -3,38 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jquery</title>
+    <title>Formularios</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 </head>
 <body>
-
+    
     <div id="contenedor" class="container">
         <h3 id="hEncabezado">El formulario</h3>
-        <div>
+        <form id="frm">
             <!-- nombre -->
-            <div class="from-group">
+            <div class="form-group">
                 <label for="txtNombre">Nombre:</label>
                 <input type="text" class="form-control" placeholder="Escribe tu nombre" id="txtNombre">
-        </div>
-         <div class="from-group">
-             <label for="txtApellido">Apellido:</label>
-             <input type="text" class="form-control" placeholder="Escribe tu Apellido" id="txtApellido">
-        </div>
-        <div class="from-group">
-                <label for="txtDireccion">Direccion:</label>
-                <input type="text" class="form-control" placeholder="Escribe tu Direccion" id="txtDireccion">
             </div>
-                <button type="button" class ="btn btn-primary" id="btnEnviar">Enviar</button>
-        </div>
+            <!--  -->
+            <div class="form-group">
+                <label for="txtApellido">Apellido:</label>
+                <input type="text" class="form-control" placeholder="Escribe tu apellido" id="txtApellido">
+            </div>
+            <div class="form-group">
+                <label for="txtDireccion">Direccion:</label>
+                <input type="text" class="form-control" placeholder="Escribe tu direccion" id="txtDireccion">
+            </div>
+            <button type="submit" class="btn btn-primary" id="btnEnviar">Enviar</button>
+        </form>
     </div>
 
-    </html> 
-        <!-- <script src="./assets/js/jquery.slim.min.js"></script> -->
+
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
 
-    <script src="./app.js"></script>
-   
+    <script src="./formularios.js"></script>
 </body>
 </html>
