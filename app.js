@@ -1,6 +1,6 @@
 
 /*Zona segura - nativa*/
-dicument.addEventListener('DOMConteneLoaded', function()){
+dicument.addEventListener('DOMConteneLoaded', function(){
     /*recuperar por id
     const nombre = $ ('#txtNombre').val();
     const direccion = $ ('#txtdireccion').val();
@@ -11,7 +11,7 @@ dicument.addEventListener('DOMConteneLoaded', function()){
     $('txtNombre').val('Dario');
 
 */
-};
+});
 
 //jquery - zona segura
 $(function(){
